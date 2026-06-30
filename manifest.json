@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "repo": "https://github.com/tfcbot/jarvis-skills",
+  "skills": [
+    {
+      "name": "scrape-creators",
+      "description": "Give Jarvis the ability to research public social data (profiles, posts, videos, comments, ad libraries) across 20+ platforms via the Scrape Creators API.",
+      "install_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.1.0/skills/scrape-creators/install.md",
+      "main_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.1.0/skills/scrape-creators/main.md",
+      "docs_url": "https://docs.scrapecreators.com/llms.txt"
+    }
+  ]
+}
