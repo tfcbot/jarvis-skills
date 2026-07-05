@@ -19,11 +19,16 @@ campaign, or read ad performance.
 - Never log the key. Ad spend is real money — confirm with the user before creating/launching.
 
 ## Example operations (starting points — get the rest from the docs)
-- List ad accounts:   `GET /v1/ads/accounts?accountId=...`
+- List ad accounts:   `GET /v1/ads/accounts?accountId=...`  (ad accounts also appear in
+  `GET /v1/accounts` as platforms ending in `ads`, e.g. `metaads` — their `_id` is the `accountId`)
 - Create ad:          `POST /v1/ads/create`
 - Update campaign:    `PUT /v1/ads/campaigns/{id}`
 - Update ad set:      `PUT /v1/ads/ad-sets/{id}`
 - Performance tree:   `GET /v1/ads/tree?accountId=...`
+- Daily performance:  `GET /v1/ads/timeline?accountId=...&fromDate=YYYY-MM-DD&toDate=YYYY-MM-DD` —
+  verified live: **the response wraps daily rows as `{ "rows": [ { date, spend, impressions,
+  clicks, conversions, ctr, cpc, cpm, roas } ] }`** (unwrap `rows`, not `data`; `400` without
+  `accountId`)
 
 ## Build it into this Jarvis (Eve conventions)
 1. `agent/skills/zernio-ads/SKILL.md` — frontmatter `name: zernio-ads` + when-to-use + auth +
