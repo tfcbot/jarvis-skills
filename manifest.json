@@ -1,33 +1,40 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repo": "https://github.com/tfcbot/jarvis-skills",
   "skills": [
     {
       "name": "scrape-creators",
       "description": "Research public social data (profiles, posts, videos, comments, ad libraries) across 20+ platforms via the Scrape Creators API.",
-      "install_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.1.0/skills/scrape-creators/install.md",
-      "main_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.1.0/skills/scrape-creators/main.md",
+      "install_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.2.0/skills/scrape-creators/install.md",
+      "main_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.2.0/skills/scrape-creators/main.md",
       "docs_url": "https://docs.scrapecreators.com/llms.txt"
     },
     {
       "name": "shopify-admin",
       "description": "Read and manage a Shopify store (products, prices, orders, publishing, analytics) via the Admin GraphQL API.",
-      "install_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.1.0/skills/shopify-admin/install.md",
-      "main_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.1.0/skills/shopify-admin/main.md",
+      "install_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.2.0/skills/shopify-admin/install.md",
+      "main_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.2.0/skills/shopify-admin/main.md",
       "docs_url": "https://shopify.dev/llms.txt"
     },
     {
       "name": "zernio-ads",
       "description": "Create and manage paid ad campaigns across platforms via the Zernio ads API.",
-      "install_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.1.0/skills/zernio-ads/install.md",
-      "main_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.1.0/skills/zernio-ads/main.md",
+      "install_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.2.0/skills/zernio-ads/install.md",
+      "main_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.2.0/skills/zernio-ads/main.md",
+      "docs_url": "https://docs.zernio.com/llms-full.txt"
+    },
+    {
+      "name": "zernio-analytics",
+      "description": "Read-only social analytics via the Zernio API: follower counts per platform, recent post performance, and paid-ads read-outs.",
+      "install_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.2.0/skills/zernio-analytics/install.md",
+      "main_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.2.0/skills/zernio-analytics/main.md",
       "docs_url": "https://docs.zernio.com/llms-full.txt"
     },
     {
       "name": "zernio-scheduler",
       "description": "Publish and schedule social posts across 14+ platforms via the Zernio API.",
-      "install_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.1.0/skills/zernio-scheduler/install.md",
-      "main_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.1.0/skills/zernio-scheduler/main.md",
+      "install_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.2.0/skills/zernio-scheduler/install.md",
+      "main_url": "https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.2.0/skills/zernio-scheduler/main.md",
       "docs_url": "https://docs.zernio.com/llms-full.txt"
     }
   ]

@@ -15,6 +15,7 @@ Each skill is a thin **installer prompt** you paste into the coding agent runnin
 | `scrape-creators` | research public social data across 20+ platforms | docs.scrapecreators.com |
 | `shopify-admin` | manage a Shopify store (products, prices, orders) | shopify.dev |
 | `zernio-ads` | create & manage paid ad campaigns | docs.zernio.com |
+| `zernio-analytics` | read followers, post performance & ad spend (read-only) | docs.zernio.com |
 | `zernio-scheduler` | publish & schedule social posts (14+ platforms) | docs.zernio.com |
 
-_Version: 0.1.0_
+_Version: 0.2.0_

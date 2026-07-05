@@ -15,7 +15,7 @@ Confirm `SCRAPECREATORS_API_KEY` is set in env, or tell the user to add it (get 
 scrapecreators.com). State your install plan.
 
 **Phase 2 — build it.** Fetch the playbook at
-https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.1.0/skills/scrape-creators/main.md
+https://raw.githubusercontent.com/tfcbot/jarvis-skills/v0.2.0/skills/scrape-creators/main.md
 and the live API docs at https://docs.scrapecreators.com/llms.txt. Following both, create the
 skill file and a small set of tool wrappers in this repo's conventions, wired to
 `SCRAPECREATORS_API_KEY` (`x-api-key` header). Keep the tool set focused; the agent can read
